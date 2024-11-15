@@ -1,0 +1,8 @@
+@EndUserText.label: 'Service Definition for Connection View'
+define service Z_FLIGHT_R_IGG {
+  expose Z_I_CONNECTION_R_IGG as Connection;
+  expose Z_I_FLIGHT_R_IGG as Flight;
+  expose Z_I_CARRIER_IGG as Airline;
+  expose Z_I_AIRPORT_IGG as Airport;
+  expose I_CountryVH as Country;
+}
